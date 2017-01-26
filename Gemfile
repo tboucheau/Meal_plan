@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 
 gem 'nokogiri', '1.6.8.1'
+gem 'clearance', '~> 1.15.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
