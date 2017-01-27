@@ -7,7 +7,7 @@ Basé sur https://coderjourney.com/blog/ sur la création d'une application Rail
 
 * docker compose v2.
 
-* L'application se lance avec `docker-compose up`/
+* L'application se lance avec `docker-compose up`.
 
 * La base de données se crée avec `docker-compose exec app rails db:create db:migrate`.
 
