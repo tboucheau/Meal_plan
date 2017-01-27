@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* chapter 5 : rails db:test:prepare nécessaire pour que les tests fonctionnent bien !
