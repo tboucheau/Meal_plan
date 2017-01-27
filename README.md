@@ -17,4 +17,4 @@ Basé sur https://coderjourney.com/blog/ sur la création d'une application Rail
 
 * le login par défaut si vous avez fait un `seed` est test@example.com / password.
 
-* Le site est accessible [ici](ror.appcaze.fr/)
+* Le site est accessible [ici](http://ror.appcaze.fr/)
