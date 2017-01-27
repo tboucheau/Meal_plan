@@ -1,24 +1,20 @@
 # README
+[![Code Climate](https://codeclimate.com/github/tboucheau/Meal_plan/badges/gpa.svg)](https://codeclimate.com/github/tboucheau/Meal_plan)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basé sur https://coderjourney.com/blog/ sur la création d'une application Rails permettant de créer des menus planifiés sur une semaine, cette application est `dockerisée`.
 
-Things you may want to cover:
+* Rails v2.3.1.
 
-* Ruby version
+* docker compose v2.
 
-* System dependencies
+* L'application se lance avec `docker-compose up`/
 
-* Configuration
+* La base de données se crée avec `docker-compose exec app rails db:create db:migrate`.
 
-* Database creation
+* Il est possible de prépeupler la base de données avec `docker-compose exec app rails db:seed` mais ce n'est pas obligé.
 
-* Database initialization
+* Les tests se font avec `docker-compose exec app rails db:test:prepare` puis `docker-compose exec app rails test`.
 
-* How to run the test suite
+* le login par défaut si vous avez fait un `seed` est test@example.com / password.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* chapter 5 : rails db:test:prepare nécessaire pour que les tests fonctionnent bien !
+* Le site est accessible [ici](ror.appcaze.fr/Meal_plan)
