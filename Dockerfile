@@ -5,7 +5,6 @@ RUN apt-get update -yqq \
     postgresql-client \
     nodejs \
   && apt-get -q clean \
-  && rm -rf /var/lib/apt/lists
   
 # Pre-install gems with native extensions
 RUN gem install nokogiri -v "1.6.8.1"
